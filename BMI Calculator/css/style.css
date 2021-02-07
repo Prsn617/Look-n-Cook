@@ -1,0 +1,127 @@
+header {
+  height: 10vh;
+  background-color: var(--mainGreen);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 36px;
+  display: flex;
+  font-size: 19px;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+.logo img {
+  margin-top: 4px;
+}
+
+.logo h1 {
+  margin-left: 12px;
+}
+
+.account {
+  margin-right: 125px;
+}
+
+main {
+  height: 90vh;
+}
+
+.search-container {
+  justify-content: center;
+  height: 72vh;
+  background: url("../images/bg2.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  text-align: center;
+  margin-bottom: 39px;
+  font-family: "Roboto", sans-serif;
+}
+
+.info h1 {
+  font-size: 69px;
+}
+
+.info h3 {
+  font-size: 52px;
+  margin-top: 5px;
+}
+
+.search {
+  margin-bottom: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-up {
+  margin-left: 400px;
+  display: flex;
+}
+
+.recipe-up {
+  width: 25vw;
+  margin-right: -4px;
+}
+
+.src-button-up {
+  background-color: var(--mainRed);
+}
+
+.recipe-up,
+.src-button-up {
+  padding: 5px 10px;
+  font-size: 17px;
+  border: 1px solid lightslategrey;
+}
+
+.recipe,
+.src-button {
+  padding: 8px 12px;
+  font-size: 18px;
+  border: 2px solid lightslategrey;
+}
+
+.recipe {
+  width: 40vw;
+  margin-right: -4px;
+}
+
+.src-button {
+  background-color: var(--darkGreen);
+}
+
+.src-button,
+.src-button-up {
+  color: #eee;
+}
+
+.container {
+  height: 18vh;
+  display: flex;
+}
+
+.calorie,
+.bmi,
+.refrigerator {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-family: "Roboto" sans-serif;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.calorie img,
+.bmi img,
+.refrigerator img {
+  margin-bottom: 10px;
+}

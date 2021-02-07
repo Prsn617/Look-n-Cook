@@ -1,0 +1,35 @@
+main {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+main h1 {
+  margin-top: 36px;
+  font-size: 36px;
+}
+
+main h3 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.ingredients {
+  margin-top: 16px;
+  list-style-position: inside;
+  list-style-type: disc;
+  font-size: 18px;
+}
+
+main p {
+  font-size: 18px;
+  margin-top: 24px;
+}
+
+.recipe-img {
+  margin-top: 36px;
+  height: 250px;
+  width: 250px;
+  background-color: gray;
+}
